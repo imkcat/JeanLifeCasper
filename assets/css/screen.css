@@ -459,6 +459,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     height: 25px;
     margin-right: 5px;
     border-radius: 100%;
+    object-fit: cover;
 }
 
 .post-card-author {
@@ -1524,10 +1525,12 @@ Usage (In Ghost editor):
     height: 100px;
     margin: 0 0 20px 0;
     box-shadow: rgba(255,255,255,0.1) 0 0 0 6px;
+    z-index: 10;
 }
 
 .site-header-content .author-bio {
     flex-shrink: 0;
+    z-index: 10;
     max-width: 600px;
     margin: 5px 0 10px 0;
     font-size: 2rem;
@@ -1539,6 +1542,7 @@ Usage (In Ghost editor):
 
 .site-header-content .author-meta {
     flex-shrink: 0;
+    z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
